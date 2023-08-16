@@ -10,7 +10,7 @@
   --system-background: rgb(255, 255, 255);
   --app-background: rgb(255, 255, 255);
   --wn-purple-banner: rgb(213, 196, 227);
-  --wn-purple-dynamic: rgba(103, 19, 155);
+  --wn-gold-dynamic: rgba(208, 172, 76);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@
     --system-background: rgb(28, 28, 30);
     --app-background: rgb(0, 0, 0);
     --wn-purple-banner: rgb(52, 27, 70);
-    --wn-purple-dynamic: rgb(151, 25, 229);
+    --wn-gold-dynamic: rgb(208, 172, 76);
   }
 }
 html {
@@ -107,7 +107,7 @@ body {
 .hero .text a.download {
   display: inline-block;
   padding: 8px 18px;
-  background-color: var(--wn-purple-dynamic);
+  background-color: var(--wn-gold-dynamic);
   border-radius: 100px;
   font-size: 20px;
   text-decoration: none;
@@ -164,12 +164,12 @@ body {
 }
 .highlights div.highlight img.badge {
   height: 25px;
-  background-color: var(--wn-purple-dynamic);
+  background-color: var(--wn-gold-dynamic);
   padding: 5px;
   border-radius: 7px;
 }
 .highlights div.highlight h3 {
-  color: var(--wn-purple-dynamic);
+  color: var(--wn-gold-dynamic);
   font-weight: 700;
   margin: 0;
   font-size: 22px;
@@ -300,10 +300,10 @@ body {
   }
 }
 .article a {
-  color: var(--wn-purple-dynamic);
+  color: var(--wn-gold-dynamic);
 }
 .article a.button {
-  background-color: var(--wn-purple-dynamic);
+  background-color: var(--wn-gold-dynamic);
   color: #FFF;
   padding: 10px 18px;
   text-decoration: none;
@@ -317,7 +317,7 @@ body {
 }
 .article a.cta {
   margin: 0 auto;
-  background-color: var(--wn-purple-dynamic);
+  background-color: var(--wn-gold-dynamic);
   color: #FFF;
   padding: 10px 22px;
   text-decoration: none;
@@ -588,7 +588,7 @@ body {
   font-size: 22px;
 }
 .tutorial .confirmation a.button {
-  background-color: var(--wn-purple-dynamic);
+  background-color: var(--wn-gold-dynamic);
   color: #FFF;
   padding: 10px 18px;
   text-decoration: none;
@@ -598,7 +598,7 @@ body {
   display: block;
   margin: 28px auto;
   text-align: center;
-  width: 120px;
+  width: 160px;
 }
 .tutorial.done .confirmation {
   display: block;
@@ -635,7 +635,7 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color: var(--wn-purple-dynamic);
+  color: var(--wn-gold-dynamic);
 }
 footer a:hover span {
   opacity: 1;
@@ -644,10 +644,10 @@ footer a:hover svg {
   opacity: 1;
 }
 footer a:hover svg path {
-  stroke: var(--wn-purple-dynamic);
+  stroke: var(--wn-gold-dynamic);
 }
 footer a:hover svg path.fg {
-  fill: var(--wn-purple-dynamic);
+  fill: var(--wn-gold-dynamic);
 }
 footer .signature {
   font-size: 18px;
@@ -698,7 +698,7 @@ footer .links a.active {
 
 header {
   margin: 42px auto;
-  color: var(--wn-purple-dynamic);
+  color: var(--wn-gold-dynamic);
 }
 header .logo {
   font-size: 56px;
